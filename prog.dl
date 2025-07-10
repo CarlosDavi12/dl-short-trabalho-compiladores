@@ -1,0 +1,11 @@
+programa teste inicio
+  inteiro a;
+  a = 3;
+  a = -a;
+  a = +a;
+
+  repita
+    escreva(a);
+    a = a + 1;
+  ate (a > 2);
+fim.
