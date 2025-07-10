@@ -1,3 +1,4 @@
+
 # dl-short-3
 
 Este projeto é uma versão resumida da linguagem DL.  
@@ -63,3 +64,30 @@ LIT_REAL  ::= DIGIT+ . DIGIT+
 LIT_BOOL  ::= verdadeiro | falso
 TYPE      ::= inteiro | real | booleano
 ```
+
+---
+
+## Equipe 3
+
+- Gabriel Neves  
+- Carlos Pereira  
+- Eduardo Batista  
+- Daniel Nascimento  
+
+---
+
+## Observações para Execução
+
+- As pastas `bin/`, `.vscode/` e `lib/` foram propositalmente removidas desta versão para envio, pois contêm arquivos temporários ou específicos do ambiente de desenvolvimento.
+- O projeto pode ser recompilado a partir da pasta `src/` com o comando:
+
+  ```
+  javac -d bin src/**/*.java
+  ```
+
+- O programa de entrada de teste está no arquivo `prog.dl`.
+- Para executar o analisador e gerar o código LLVM IR:
+
+  ```
+  java -cp bin dl.DL
+  ```
